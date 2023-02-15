@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SubmissionAkhirIntermediate</string>
+
+    <string name="imgaddstory">Tambah Gambar Cerita</string>
+    <string name="camerax">KameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="enter_photo_description">Masukan Keterangan Fotp</string>
+    <string name="upload">Mengunggah</string>
+    <string name="take_photo">Memotret</string>
+    <string name="switch_camera">Beralih Kamera</string>
+    <string name="image_story">Gambar Cerita</string>
+    <string name="name">Nama</string>
+    <string name="photo_description">Deskripsi Foto</string>
+    <string name="theme">Tema</string>
+    <string name="img_logo">Gambar Logo</string>
+    <string name="log_in_to_your_account">Masuk Ke Akun Anda</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Masukan Email Anda</string>
+    <string name="password">Kata Sandi</string>
+    <string name="enter_your_password">Masukan Kata Sandi Anda</string>
+    <string name="create_new_account">Buat akun baru</string>
+    <string name="menu">Menu</string>
+    <string name="settings">"Pengaturan "</string>
+    <string name="add_story">Tambahkan Cerita</string>
+    <string name="no_data">Tidak Ada Data</string>
+    <string name="empty_story_data">Data Cerita Kosong</string>
+    <string name="let_s_add_story_data_in_the_add_menu_section">Ayo Tambahkan data Cerita di Bagian Menu Tambah</string>
+    <string name="create_an_account">Buat sebuah akun</string>
+    <string name="enter_your_name">Masukkan Nama Anda</string>
+    <string name="i_already_have_an_account">Saya sudah memiliki akun</string>
+    <string name="day_mode_or_night_mode">Mode Siang atau Mode Malam</string>
+    <string name="logosplashscreen">Logo Splash Screen</string>
+    <string name="iv_logo">Gambar Logo</string>
+    <string name="welcome_to_the_story_app">Selamat Datang di Aplikasi Cerita</string>
+    <string name="this_application_displays_a_list_of_stories_from_friends_who_are_studying_and_graduating_from_dicoding">Aplikasi ini menampilkan daftar cerita dari teman-teman yang sedang belajar dan lulus dari Dicoding.</string>
+    <string name="continuee">Lanjut</string>
+    <string name="log_out">Keluar Akun</string>
+    <string name="_2023_dicoding_x_idcamp">2023 Dicoding X IdCamp</string>
+
+    <string name="tidak_mendapatkan_permission.">Tidak Mendapatkan Izin Akses Kamera</string>
+    <string name="upload_success">Upload Berhasil</string>
+    <string name="upload_failed">Upload Gagal</string>
+    <string name="open_gallery">Membuka Galeri</string>
+    <string name="open_camerax">Membuka Kamera X</string>
+    <string name="add_loc">Menambahkan Lokasi</string>
+    <string name="maps">Peta</string>
+    <string name="change_language">Pilih Bahasa</string>
+
+    <string name="story_dicoding">Cerita Dicoding</string>
+    <string name="add_button_click">Tombol Tambah Cerita</string>
+    <string name="setting_button_click">Tombol Pengaturan</string>
+
+    <string name="berhasil_mengambil_gambar">Berhasil Menyimpan Gambar</string>
+    <string name="gagal_mengambil_gambar">Gagal Mengambil Gambar</string>
+    <string name="gagal_memunculkan_kamera">Gagal Memunculkan Kamera</string>
+
+    <string name="detail_story">Detail Cerita</string>
+
+    <string name="welcome">Selamat Datang</string>
+    <string name="gagal_log_in">Gagal Masuk</string>
+
+    <string name="sukses_register">Registrasi Berhasil</string>
+    <string name="gagal_register">Registrasi Gagal</string>
+
+    <string name="pilih_bahasa">Pilih Bahasa</string>
+    <string name="sesuaikan_bahasa_anda">Sesuaikan Bahasa Anda</string>
+    <string name="gambar_pilih_bahasa">Gambar Pilih Bahasa</string>
+    <string name="right">Kanan</string>
+
+    <string name="gambar_welcome">Gambar Selamat Datang</string>
+
+    <string name="no_add_image">Tidak ada file terlampir, harap lampirkan gambar terlebih dahulu</string>
+    <string name="field_empty">Kolom tidak boleh kosong</string>
+
+    <string name="save_locations">Lokasi Tersimpan</string>
+    <string name="locations_not_found">Lokasi Tidak Ada</string>
+    <string name="map_page_title">Peta Pengguna Cerita</string>
+    <string name="story_detail_title">Detail Cerita</string>
+    <string name="turn_on_location">Tolong Aktifkan Lokasi</string>
+    <string name="no_permission">Tidak Mendapatkan Perizinan</string>
+    <string name="created_add">Dibuat pada %1$s</string>
+
+</resources>
