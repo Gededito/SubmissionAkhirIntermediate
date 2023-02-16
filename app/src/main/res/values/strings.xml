@@ -82,5 +82,8 @@
     <string name="no_permission">Not Getting Permission</string>
     <string name="created_add">Created at %1$s</string>
 
+    <!-- Loading Item -->
+    <string name="message_error">Timeout</string>
+    <string name="btn_muat_ulang">Retry</string>
 
 </resources>

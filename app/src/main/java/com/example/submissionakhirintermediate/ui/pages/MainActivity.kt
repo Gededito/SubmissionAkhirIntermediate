@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.submissionakhirintermediate.R
 import com.example.submissionakhirintermediate.databinding.ActivityMainBinding
+import com.example.submissionakhirintermediate.ui.adapter.LoadingAdapter
 import com.example.submissionakhirintermediate.ui.adapter.paging.StoryAdapter
 import com.example.submissionakhirintermediate.ui.viewmodel.LoginViewModel
 import com.example.submissionakhirintermediate.ui.viewmodel.StoryViewModel
@@ -74,7 +75,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getStory() {
-        binding.rvStory.adapter = storyAdapter
+        binding.rvStory.adapter = storyAdapter.withLoadStateFooter(
+            footer = LoadingAdapter {
+                storyAdapter.retry()
+            }
+        )
 
         listStoryViewModel.getStory().observe(this@MainActivity) {
             storyAdapter.submitData(lifecycle, it)

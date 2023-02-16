@@ -9,7 +9,6 @@ import kotlinx.coroutines.flow.first
 
 class StoryPagingSource(private val apiService: ApiService, private val pref: UserPreferences):
     PagingSource<Int, StoryApp>() {
-
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, StoryApp> {
         return try {
             val page = params.key ?: INITIAL_PAGE_INDEX
@@ -25,14 +24,12 @@ class StoryPagingSource(private val apiService: ApiService, private val pref: Us
             return LoadResult.Error(exception)
         }
     }
-
     override fun getRefreshKey(state: PagingState<Int, StoryApp>): Int? {
         return state.anchorPosition?.let {
             val anchorPage = state.closestPageToPosition(it)
             anchorPage?.prevKey?.plus(1)?: anchorPage?.nextKey?.minus(1)
         }
     }
-
     companion object {
         const val INITIAL_PAGE_INDEX = 1
     }

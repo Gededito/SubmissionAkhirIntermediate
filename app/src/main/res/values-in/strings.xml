@@ -82,4 +82,7 @@
     <string name="no_permission">Tidak Mendapatkan Perizinan</string>
     <string name="created_add">Dibuat pada %1$s</string>
 
+    <string name="message_error">Waktu Habis</string>
+    <string name="btn_muat_ulang">Muat Ulang</string>
+
 </resources>
